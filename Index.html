@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Project.css"/>
+   
+    <title>Document</title>
+    
+</head>
+<body >
+    <header id="TNav">
+        <nav class="TopNavigation" id="xdd">
+            <img src="img/svg/compass.svg" class="TopNavImg" id="BNav" >
+            <button class="TopNavBtn SelectedBtn">
+                Home    
+            </button>
+            <button class="TopNavBtn" onclick="document.location ='Hra.html'">
+                Hra    
+            </button>
+            <button class="TopNavBtn" onclick="document.location ='Verze.html'">
+                Verze   
+            </button>
+            <button class="TopNavBtn" onclick="document.location ='Historie.html'">
+                Historie   
+            </button>
+            <button class="TopNavBtn" onclick="document.location ='Osobnosti.html'">
+                Osobnosti   
+            </button>
+            
+            
+            <nav id="SideNav" >
+                <a href="#hra">Hra ></a>
+                <a href="#verze">Verze ></a>
+                <a href="#hist">Historie ></a>
+                <a href="#osob">Osobnosti ></a>
+                
+        
+        
+            </nav>
+
+
+        </nav>
+        
+    </header>
+
+   
+  
+    
+    <article class="TopContent g">
+        <div class="TopDiv">
+                <h1>Minecraft</h1>
+
+        </div>
+
+
+    </article>
+    <div class="Divider RGrad3" ></div>
+
+
+
+
+
+
+    
+    
+
+
+    <div id="Content"> 
+        <section class="b BackgroundSection" >
+            <div class="ContentDiv">
+                <img id="hra" src="img/logo.png" class="ContentImg" onclick="clicked('Hra.html')">
+                <div class="ContentText">
+                    <h3 >Hra</h3>
+                    <p>Jak fungují herní mechaniky jako je crafting a různé herní módy které hra nabízí.</p>
+
+                </div>
+                <button onclick="location.href='Hra.html'" class="MobileClick">Hra ============> </button>
+            </div>
+        </section>
+
+        <div class="Divider Grad1" ></div>
+
+        <section class="g BackgroundSection">
+            <div class="ContentDiv">
+                <img id="verze" src="img/command.png" class="ContentImg" onclick="clicked('Verze.html')">
+                <div class="ContentText">
+                    <h3 >Verze</h3>
+                    <p>Jak probíhal vývoj hry.</p>
+
+                </div>            
+                <button onclick="location.href='Verze.html'" class="MobileClick">Verze ==========> </button>
+            </div>
+        </section>
+
+        <div class="Divider RGrad1" ></div>
+
+        <section class="b BackgroundSection">
+            <div class="ContentDiv">
+                <img id="hist" src="img/ruby.png" class="ContentImg" onclick="clicked('Historie.html')">
+                <div class="ContentText">
+                    <h3 >Historie</h3>
+                    <p>Jak hra začínála a další klíčové momenty</p>
+
+                </div>            
+                <button onclick="location.href='Historie.html'" class="MobileClick">Historie =======> </button>
+            </div>
+        </section>
+
+        <div class="Divider Grad2" ></div>
+
+        <section class="g BackgroundSection">
+            <div class="ContentDiv">
+                <img id="osob" src="img/Techno.png" class="ContentImg" onclick="clicked('Osobnosti.html')" >
+                <div class="ContentText">
+                    <h3 >Osobnosti</h3>
+                    <p>Slavné osobbnosti spojené s Minecraftem</p>
+
+                </div>            
+                <button onclick="location.href='Osobnosti.html'" class="MobileClick">Osobnosti ======> </button>
+            </div>
+        </section >
+
+        <div class="Divider RGrad2" ></div>
+
+
+        
+
+        <section class="b BackgroundSection "  style="min-height: 50px;">
+            <div class="Foot" >
+                © Vojtěch Charouz
+            </div>
+        </section>
+
+
+
+      
+
+       
+    </div>
+       
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+    <script src="Main.js"></script>
+</body>
+</html>

@@ -1,0 +1,495 @@
+
+@font-face {
+    font-family: Minecraft;
+    src: url(data/mcfont.otf);
+}
+
+@font-face {
+    font-family: Minecraft_Small;
+    src: url(data/mcsmall.ttf);
+}
+
+
+html,body{
+    height: 100%;
+    
+}
+
+body{
+    margin: 0;
+    background-color: #0f0f0f;
+    color: white;
+    
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+    
+
+
+}
+
+header{
+    height: 5vh;
+    width: 100%;
+    background-color: #101010;
+    z-index: 2;
+    display: block;
+    position: fixed;
+    top: 0;
+}
+
+.TopNavigation{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.TopNavBtn{
+    background-color: #101010;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    margin: 0px;
+    border: 0px;
+    height: 5vh;
+    width: 10%;
+    font-size: 1.5vw;
+    display: flex;
+    justify-content: center;
+    transition-duration: 0.3s;
+    padding-top: 1vh;
+    font-family: Minecraft_Small;
+
+}
+
+
+
+.TopNavBtn:hover{
+    height: 7vh;
+    font-size: 27px;
+    background-color: #002929;
+    font-weight: bold;
+}
+
+
+.SelectedBtn{
+    background-color:#002929;
+    font-weight: bold;
+    font-size: 1.7Wv;
+}
+
+.SelectedBtn:hover{
+    height: 5vh;
+}
+
+.TopNavImg{
+    width: 7vh;
+    padding-left: 1vh;
+    padding-right: 1vh;
+    height: 5vh;
+    background-color: #101010;
+    transition-duration:0.3s ;
+   
+
+}
+
+
+
+.BackgroundSection{
+    width: 0 auto;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction:row;
+    min-height: 300px;
+}
+
+.ContentDiv{
+    margin-left:10vw;
+    margin-right: 10vw;
+    width: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.TopContent{
+    
+    align-content: center;
+    text-align: center;
+    
+    margin-top: 5vh;
+    height: 95vh;
+    grid-column: 1/3;
+    grid-row:1/2 ;
+    background-color: white;
+    z-index: 1;
+}
+
+.TopDiv{
+    margin: 0 auto;
+    text-align: center;
+    width: 75vw;
+    margin-top: 5vh;
+}
+
+.ContentImg{
+    width: 50vw;
+    height: 40vw;
+
+    
+}
+
+.ImgGrid
+{
+    display:  grid;
+    width: 50vw;
+    height: 40vw;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+
+.ImgGrid > img{
+    width: 24.5vw;
+    height: 19.5vw;
+    margin: 0.5vw;
+}
+
+b{
+  text-shadow: #0f0f0f 8px 8px;
+}
+
+.ImgGrid > img:hover{
+    left: 15vw;
+    top: 15vh;
+    position: fixed;
+    justify-self: center;
+    width: 70vw;
+    height: 70vh;
+    z-index: 5;
+    border: 1vw solid #00494b;
+
+}
+
+
+.ContentText{
+    width: 50vw;
+    font-size: 30px;
+    text-align: left;
+    font-family: Minecraft_Small;
+}
+
+
+h1{
+    font-size: 90px;
+    margin: 0;
+    font-family: Minecraft;
+    width: 50%;
+}
+
+
+.TopDiv > p {
+    font-family: Minecraft_Small;
+    font-size: 30px;
+}
+
+.ContentText > h3{
+    font-size: 50px;
+    font-family: Minecraft;
+}
+
+#Content{
+    grid-column: 1/3;
+    transition-duration: 0.2s;
+    
+}
+
+
+
+
+.icon{
+    
+    aspect-ratio: 32/32;
+    height: 6vh;
+    transition-duration: 0.3s;
+    margin: 0,5vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+#Navigation{
+    grid-column: 1/2;
+    display: none;
+    width: auto;
+    background-color: black;
+
+}
+
+.g > div > img{
+    border: #252525 20px solid;
+    box-shadow: #181818 15px 15px ;
+}
+
+.b > div > img{
+    border: #00494b 20px solid;
+    box-shadow: #002a2c 15px 15px ;
+}
+
+
+.g > div > div > h3{
+    
+    text-shadow: #181818 7px 7px ;
+}
+
+.b > div > div >h3 {
+    
+    text-shadow: #002a2c 7px 7px ;
+}
+
+
+.ContentText{
+    font-weight: bold;
+}
+
+
+
+.Divider{
+    aspect-ratio: 900/300;
+    grid-column: 1/3;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Grad1
+{
+    background-image: url("img/svg/Grad1.svg");
+}
+.Grad2
+{
+    background-image: url("img/svg/Grad2.svg");
+}
+.Grad3
+{
+    background-image: url("img/svg/Grad3.svg");
+}
+.Grad4
+{
+    background-image: url("img/svg/Grad4.svg");
+}
+.RGrad1
+{
+    background-image: url("img/svg/RGrad1.svg");
+}
+.RGrad2
+{
+    background-image: url("img/svg/RGrad2.svg");
+}
+.RGrad3
+{ 
+    background-image: url("img/svg/RGrad3.svg");
+}
+.RGrad4
+{
+    background-image: url("img/svg/RGrad4.svg");
+}
+.b{
+    background-color: #015657;
+}
+.g{
+    background-color: #303030;
+}
+.w{
+    background-color: white;
+}
+
+
+
+#SideNav{
+    display: none;
+    flex-direction: column;
+    position: fixed;
+    left: 0; 
+    top: 5vh;
+    width: 10vw;
+    height: 100vh;
+    background-color:#002929 ;
+    z-index: 2;
+
+}
+
+#SideNav  a{
+    width: 100%;
+    height: 5%;
+    background-color: #00494b;
+    border: none;
+    color: white;
+    font-family: Minecraft_Small;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    z-index: 3;
+}
+
+.TopNavImg:hover ~ #SideNav{
+    display: flex;
+}
+
+#SideNav:hover
+{
+    display: flex;
+}
+
+#SideNav > a:hover{
+    width: 110%;
+}
+
+
+.MobileClick{
+    display: none;
+}
+
+.im1{grid-column:1/2 ; grid-row: 1/2;}
+.im2{grid-column:1/2 ; grid-row: 2/3;}
+.im3{grid-column:2/3 ; grid-row: 1/2;}
+.im4{grid-column:2/3 ; grid-row: 2/3;}
+
+
+
+
+
+#top{
+    border: none;
+    box-shadow: none;
+}
+
+
+
+.MobileClick{
+    display: none;
+}
+
+
+@keyframes logo {
+    0%{background-image: url("img/grass.png");}
+    25% {background-image: url("img/dia.png");}
+    50%{background-image: url("img/spawner1.png");}
+    75%{background-image: url("img/oak1.png");}
+    100%{background-image: url("img/grass.png");}
+}
+
+.logo{
+    background-image: url("grass.png");
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    animation-name:logo;
+    animation-duration: 10s;
+    animation-play-state:paused ;
+    animation-iteration-count:infinite ;
+    align-items: center;
+    align-content: center;
+    margin: auto;
+    
+    
+}
+
+.logo:hover{
+    animation-play-state:running ;
+}
+
+.Foot{
+    padding-top: 10%;
+    padding-left: 5%;
+    
+}
+
+
+
+@media screen and (max-width:700px) {
+    
+    
+body{
+  
+    display: grid;
+    grid-template-columns: 1f;
+    
+
+
+}
+
+
+.ContentDiv{
+  
+    width: 100%;
+    margin:0px ;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+}
+
+
+.BackgroundSection{
+    width: 0 auto;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    
+    min-height: 300px;
+}
+
+
+.MobileClick{
+    display: block;
+    background-color: #002a2c;
+    border: #00494b solid 5px;
+    width: 50%;
+    height: 20vh;
+}
+
+
+
+.TopNavImg{display: none;}
+
+
+.TopNavImg{display: none;}
+
+
+.TopNavBtn{
+    font-size: 15px;
+    width: 15vw;
+}
+
+
+
+
+.ImgGrid
+{
+    display:  grid;
+    width: 50vw;
+    height: 40vw;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+
