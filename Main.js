@@ -58,3 +58,16 @@
 //     SB[i].addEventListener("mouseenter", SEnter);
 //     SB[i].addEventListener("mouseleave", Sleft);
 // }
+
+
+const TagValues ={
+    'minecraft:is_armor': "minecraft:iron_chestplate",
+    'minecraft:arrow': "minecraft:arrow",
+    'minecraft:banners': "minecraft:white_banner",
+    'minecraft:boats': "minecraft:oak_boat",
+    
+    'minecraft:stone_crafting_materials':"minecraft:cobblestone"
+
+};
+
+console.log(TagValues['minecraft:is_armor']);
